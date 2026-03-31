@@ -1,0 +1,56 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-gb'
+title = 'Harry Steed'
+theme = 'PaperMod'
+
+[params]
+  description = "PhD Student in Mathematical Biology, Cardiff University"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+
+[params.homeInfoParams]
+  Title = ""
+  Content = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:SteedHA@cardiff.ac.uk"
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/hajsteed"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://uk.linkedin.com/in/hajsteed"
+
+[[menu.main]]
+  name = "GitHub"
+  url = "https://github.com/hajsteed"
+  weight = 1
+
+[[menu.main]]
+  name = "LinkedIn"
+  url = "https://uk.linkedin.com/in/hajsteed"
+  weight = 2
+
+[[menu.main]]
+  name = "CV"
+  url = "/CV.pdf"
+  weight = 3
+
+[[menu.main]]
+  name = "SteedHA@cardiff.ac.uk"
+  url = "mailto:SteedHA@cardiff.ac.uk"
+  weight = 4
+
+  [[menu.main]]
+  name = "CU Profile"
+  url = "https://profiles.cardiff.ac.uk/research-staff/steedha"
+  weight = 5
